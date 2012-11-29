@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E751254166780F4007429CD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E751253166780F4007429CD /* main.cpp */; };
 		4E751256166780F4007429CD /* Joc_Paraules.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4E751255166780F4007429CD /* Joc_Paraules.1 */; };
 		4E7512661667818F007429CD /* anagrames.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E75125C1667818F007429CD /* anagrames.cpp */; };
 		4E7512671667818F007429CD /* diccionari.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E75125E1667818F007429CD /* diccionari.cpp */; };
@@ -31,7 +30,6 @@
 
 /* Begin PBXFileReference section */
 		4E75124F166780F4007429CD /* Joc Paraules */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Joc Paraules"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E751253166780F4007429CD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4E751255166780F4007429CD /* Joc_Paraules.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Joc_Paraules.1; sourceTree = "<group>"; };
 		4E75125C1667818F007429CD /* anagrames.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = anagrames.cpp; sourceTree = "<group>"; };
 		4E75125D1667818F007429CD /* anagrames.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = anagrames.hpp; sourceTree = "<group>"; };
@@ -85,7 +83,6 @@
 				4E7512631667818F007429CD /* obte_paraules.hpp */,
 				4E7512641667818F007429CD /* word_toolkit.cpp */,
 				4E7512651667818F007429CD /* word_toolkit.hpp */,
-				4E751253166780F4007429CD /* main.cpp */,
 				4E751255166780F4007429CD /* Joc_Paraules.1 */,
 			);
 			path = "Joc Paraules";
@@ -142,7 +139,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E751254166780F4007429CD /* main.cpp in Sources */,
 				4E7512661667818F007429CD /* anagrames.cpp in Sources */,
 				4E7512671667818F007429CD /* diccionari.cpp in Sources */,
 				4E7512681667818F007429CD /* iter_subset.cpp in Sources */,
