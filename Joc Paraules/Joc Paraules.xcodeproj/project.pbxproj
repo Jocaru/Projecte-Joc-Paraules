@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		4E751254166780F4007429CD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E751253166780F4007429CD /* main.cpp */; };
 		4E751256166780F4007429CD /* Joc_Paraules.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4E751255166780F4007429CD /* Joc_Paraules.1 */; };
+		4E7512661667818F007429CD /* anagrames.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E75125C1667818F007429CD /* anagrames.cpp */; };
+		4E7512671667818F007429CD /* diccionari.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E75125E1667818F007429CD /* diccionari.cpp */; };
+		4E7512681667818F007429CD /* iter_subset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E7512601667818F007429CD /* iter_subset.cpp */; };
+		4E7512691667818F007429CD /* obte_paraules.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E7512621667818F007429CD /* obte_paraules.cpp */; };
+		4E75126A1667818F007429CD /* word_toolkit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E7512641667818F007429CD /* word_toolkit.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +33,16 @@
 		4E75124F166780F4007429CD /* Joc Paraules */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Joc Paraules"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E751253166780F4007429CD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		4E751255166780F4007429CD /* Joc_Paraules.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Joc_Paraules.1; sourceTree = "<group>"; };
+		4E75125C1667818F007429CD /* anagrames.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = anagrames.cpp; sourceTree = "<group>"; };
+		4E75125D1667818F007429CD /* anagrames.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = anagrames.hpp; sourceTree = "<group>"; };
+		4E75125E1667818F007429CD /* diccionari.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = diccionari.cpp; sourceTree = "<group>"; };
+		4E75125F1667818F007429CD /* diccionari.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = diccionari.hpp; sourceTree = "<group>"; };
+		4E7512601667818F007429CD /* iter_subset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = iter_subset.cpp; sourceTree = "<group>"; };
+		4E7512611667818F007429CD /* iter_subset.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = iter_subset.hpp; sourceTree = "<group>"; };
+		4E7512621667818F007429CD /* obte_paraules.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = obte_paraules.cpp; sourceTree = "<group>"; };
+		4E7512631667818F007429CD /* obte_paraules.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = obte_paraules.hpp; sourceTree = "<group>"; };
+		4E7512641667818F007429CD /* word_toolkit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = word_toolkit.cpp; sourceTree = "<group>"; };
+		4E7512651667818F007429CD /* word_toolkit.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = word_toolkit.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +75,16 @@
 		4E751252166780F4007429CD /* Joc Paraules */ = {
 			isa = PBXGroup;
 			children = (
+				4E75125C1667818F007429CD /* anagrames.cpp */,
+				4E75125D1667818F007429CD /* anagrames.hpp */,
+				4E75125E1667818F007429CD /* diccionari.cpp */,
+				4E75125F1667818F007429CD /* diccionari.hpp */,
+				4E7512601667818F007429CD /* iter_subset.cpp */,
+				4E7512611667818F007429CD /* iter_subset.hpp */,
+				4E7512621667818F007429CD /* obte_paraules.cpp */,
+				4E7512631667818F007429CD /* obte_paraules.hpp */,
+				4E7512641667818F007429CD /* word_toolkit.cpp */,
+				4E7512651667818F007429CD /* word_toolkit.hpp */,
 				4E751253166780F4007429CD /* main.cpp */,
 				4E751255166780F4007429CD /* Joc_Paraules.1 */,
 			);
@@ -118,6 +143,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E751254166780F4007429CD /* main.cpp in Sources */,
+				4E7512661667818F007429CD /* anagrames.cpp in Sources */,
+				4E7512671667818F007429CD /* diccionari.cpp in Sources */,
+				4E7512681667818F007429CD /* iter_subset.cpp in Sources */,
+				4E7512691667818F007429CD /* obte_paraules.cpp in Sources */,
+				4E75126A1667818F007429CD /* word_toolkit.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
