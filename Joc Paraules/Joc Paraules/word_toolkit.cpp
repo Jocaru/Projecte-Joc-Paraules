@@ -1,5 +1,5 @@
 bool word_toolkit::es_canonic(const string& s) throw(){
-    
+    //hola
 }
 
 string word_toolkit::anagrama_canonic(const string& s) throw(){
