@@ -1,4 +1,3 @@
-
 #ifndef _ITER_SUBSET_HPP
 #define _ITER_SUBSET_HPP
 #include <esin/error>
@@ -21,18 +20,19 @@ public:
 
   bool end() throw();
 
-  subset operator*() const throw(error);       
+  subset operator*() const throw(error);
 
   iter_subset& operator++() throw();
 
   iter_subset operator++(int) throw();
 
-  bool operator==(const iter_subset& c) const throw(); 
-  bool operator!=(const iter_subset& c) const throw(); 
+  bool operator==(const iter_subset& c) const throw();
+  bool operator!=(const iter_subset& c) const throw();
 
   static const int IterSubsetIncorr = 31;
 
-private: 
+private:
     #include "iter_subset.rep"
+    vector<subset> _v;
 };
 #endif
