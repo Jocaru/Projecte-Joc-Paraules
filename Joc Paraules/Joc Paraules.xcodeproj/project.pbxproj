@@ -13,6 +13,8 @@
 		4E7512681667818F007429CD /* iter_subset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E7512601667818F007429CD /* iter_subset.cpp */; };
 		4E7512691667818F007429CD /* obte_paraules.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E7512621667818F007429CD /* obte_paraules.cpp */; };
 		4E75126A1667818F007429CD /* word_toolkit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E7512641667818F007429CD /* word_toolkit.cpp */; };
+		4EDE3EBA1679DF460058ED43 /* diccionari.rep in Sources */ = {isa = PBXBuildFile; fileRef = 4EDE3EB91679DF460058ED43 /* diccionari.rep */; };
+		4EDE3EBC1679DF660058ED43 /* iter_subset.rep in Sources */ = {isa = PBXBuildFile; fileRef = 4EDE3EBB1679DF660058ED43 /* iter_subset.rep */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +43,8 @@
 		4E7512631667818F007429CD /* obte_paraules.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = obte_paraules.hpp; sourceTree = "<group>"; };
 		4E7512641667818F007429CD /* word_toolkit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = word_toolkit.cpp; sourceTree = "<group>"; };
 		4E7512651667818F007429CD /* word_toolkit.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = word_toolkit.hpp; sourceTree = "<group>"; };
+		4EDE3EB91679DF460058ED43 /* diccionari.rep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = diccionari.rep; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		4EDE3EBB1679DF660058ED43 /* iter_subset.rep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iter_subset.rep; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +81,9 @@
 				4E75125D1667818F007429CD /* anagrames.hpp */,
 				4E75125E1667818F007429CD /* diccionari.cpp */,
 				4E75125F1667818F007429CD /* diccionari.hpp */,
+				4EDE3EB91679DF460058ED43 /* diccionari.rep */,
 				4E7512601667818F007429CD /* iter_subset.cpp */,
+				4EDE3EBB1679DF660058ED43 /* iter_subset.rep */,
 				4E7512611667818F007429CD /* iter_subset.hpp */,
 				4E7512621667818F007429CD /* obte_paraules.cpp */,
 				4E7512631667818F007429CD /* obte_paraules.hpp */,
@@ -144,6 +150,8 @@
 				4E7512681667818F007429CD /* iter_subset.cpp in Sources */,
 				4E7512691667818F007429CD /* obte_paraules.cpp in Sources */,
 				4E75126A1667818F007429CD /* word_toolkit.cpp in Sources */,
+				4EDE3EBA1679DF460058ED43 /* diccionari.rep in Sources */,
+				4EDE3EBC1679DF660058ED43 /* iter_subset.rep in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +244,7 @@
 				4E75125B166780F4007429CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

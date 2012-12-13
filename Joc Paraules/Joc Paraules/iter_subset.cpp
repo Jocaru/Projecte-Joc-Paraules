@@ -7,7 +7,11 @@ iter_subset::iter_subset(nat n, nat k) throw(error){
         nat tmn = aux1 / aux2;
         _v.resize(tmn);                                     //redimensionem el vector amb el nombre de subconjunts
         for (nat i = 0; i < tmn; i++) _v[i].resize(k);      //redimensionem cada subconjunt a k
+        vector<nat> conjunt(n);
+        for(nat i = 0; i < tmn; i++) conjunt[i] = i+1;      //plenem un vector conjunt amb els números {1..n}
+        
     }
+    else throw error(IterSubsetIncorr);
 }
 
 iter_subset::iter_subset(const iter_subset& its) throw(error){

@@ -1,0 +1,14 @@
+    struct node_tst{
+        char _c;
+        node_tst* _esq;
+        node_tst* _dret;
+        node_tst* _cen;
+    };
+    
+    node_tst* _arrel;
+    
+    static node_tst* rinsereix(node_tst* n, nat i, const string &paraula) throw(error);
+
+    static node_tst* rconsulta(node_tst* n, nat i, const string &paraula) throw();
+
+    void consulta (const Clau &k, bool &hi_es, Valor &v) const throw();
