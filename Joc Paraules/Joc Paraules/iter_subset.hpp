@@ -33,5 +33,6 @@ public:
 
 private:
     #include "iter_subset.rep"
+    vector<
 };
 #endif
